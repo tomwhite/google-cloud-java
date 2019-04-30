@@ -106,6 +106,8 @@
               <excludes>
                 <exclude>com.google.cloud.**</exclude>
                 <exclude>com.google.auto.**</exclude>
+                <exclude>com.google.api.**</exclude>
+                <exclude>com.google.auth.**</exclude>
               </excludes>
             </relocation>
             <relocation>
