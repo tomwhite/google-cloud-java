@@ -108,6 +108,7 @@
                 <exclude>com.google.auto.**</exclude>
                 <exclude>com.google.api.**</exclude>
                 <exclude>com.google.auth.**</exclude>
+                <exclude>com.google.common.**</exclude>
               </excludes>
             </relocation>
             <relocation>
@@ -115,7 +116,6 @@
               <shadedPattern>shaded.cloud_nio.org</shadedPattern>
               <includes>
                 <include>org.apache.**</include>
-                <include>org.threeten.**</include>
                 <include>org.codehaus.**</include>
               </includes>
             </relocation>
